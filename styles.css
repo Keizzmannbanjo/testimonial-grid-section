@@ -1,5 +1,7 @@
 /* ? BASE STYLES START HERE */
 
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -96,12 +98,16 @@ img {
 }
 
 .card {
-  padding: 2rem;
+  padding: 1rem 2rem;
   border-radius: 5px;
 }
 
 .graduate-daniel {
   background-color: var(--color-violet);
+  background-image: url('./images/bg-pattern-quotation.svg');
+  background-repeat: no-repeat;
+  background-position: 80% 0;
+  background-size: 20%;
 }
 
 .graduate-jonathan {
